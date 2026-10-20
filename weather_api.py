@@ -182,3 +182,25 @@ def get_weather(latitude, longitude):
     except requests.RequestException as e:
         st.error(f"Gagal mengambil data cuaca: {e}")
         return None
+
+if __name__ == "__main__":
+    import requests
+
+    try:
+        r = requests.get(
+            "https://geocoding-api.open-meteo.com/v1/search",
+            params={
+                "name": "Jakarta",
+                "count": 5,
+                "language": "id",
+                "format": "json",
+                "countryCode": "ID",
+            },
+            timeout=15,
+        )
+
+        print("STATUS:", r.status_code)
+        print("HASIL:", r.text[:1500])
+
+    except Exception as e:
+        print("ERROR:", repr(e))
