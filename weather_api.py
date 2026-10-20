@@ -7,6 +7,57 @@ NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
 
 
+# Nama provinsi Indonesia dan variasi nama dari API
+PROVINCE_ALIASES = {
+    "aceh": ["aceh"],
+    "sumatera utara": ["north sumatra", "sumatera utara"],
+    "sumatera barat": ["west sumatra", "sumatera barat"],
+    "riau": ["riau"],
+    "kepulauan riau": ["riau islands", "kepulauan riau"],
+    "jambi": ["jambi"],
+    "sumatera selatan": ["south sumatra", "sumatera selatan"],
+    "kepulauan bangka belitung": [
+        "bangka belitung islands",
+        "kepulauan bangka belitung",
+    ],
+    "bengkulu": ["bengkulu"],
+    "lampung": ["lampung"],
+    "dki jakarta": ["jakarta", "jakarta special capital region"],
+    "jakarta": ["jakarta", "jakarta special capital region"],
+    "jawa barat": ["west java", "jawa barat"],
+    "jawa tengah": ["central java", "jawa tengah"],
+    "di yogyakarta": [
+        "yogyakarta",
+        "special region of yogyakarta",
+    ],
+    "diy": ["yogyakarta", "special region of yogyakarta"],
+    "jawa timur": ["east java", "jawa timur"],
+    "banten": ["banten"],
+    "bali": ["bali"],
+    "nusa tenggara barat": ["west nusa tenggara"],
+    "nusa tenggara timur": ["east nusa tenggara"],
+    "kalimantan barat": ["west kalimantan"],
+    "kalimantan tengah": ["central kalimantan"],
+    "kalimantan selatan": ["south kalimantan"],
+    "kalimantan timur": ["east kalimantan"],
+    "kalimantan utara": ["north kalimantan"],
+    "sulawesi utara": ["north sulawesi"],
+    "gorontalo": ["gorontalo"],
+    "sulawesi tengah": ["central sulawesi"],
+    "sulawesi barat": ["west sulawesi"],
+    "sulawesi selatan": ["south sulawesi"],
+    "sulawesi tenggara": ["southeast sulawesi"],
+    "maluku": ["maluku"],
+    "maluku utara": ["north maluku"],
+    "papua": ["papua"],
+    "papua barat": ["west papua"],
+    "papua selatan": ["south papua"],
+    "papua tengah": ["central papua"],
+    "papua pegunungan": ["highland papua"],
+    "papua barat daya": ["southwest papua"],
+}
+
+
 def clean_region_name(name):
     prefixes = [
         "KABUPATEN ADMINISTRASI ",
@@ -24,34 +75,33 @@ def clean_region_name(name):
     return result
 
 
+def province_matches(api_province, requested_province):
+    api_name = (api_province or "").casefold().strip()
+    requested = requested_province.casefold().strip()
+
+    aliases = PROVINCE_ALIASES.get(requested, [requested])
+    aliases = [name.casefold().strip() for name in aliases]
+
+    return any(
+        alias == api_name
+        or alias in api_name
+        or api_name in alias
+        for alias in aliases
+        if alias
+    )
+
+
 @st.cache_data(ttl=86400)
 def get_coordinates(regency_name, province_name):
     clean_name = clean_region_name(regency_name)
 
     queries = list(dict.fromkeys([
+        f"{clean_name}, {province_name}",
         clean_name,
         regency_name.strip(),
     ]))
 
-    province = province_name.casefold().strip()
-
-    province_aliases = {
-        "dki jakarta": [
-            "jakarta",
-            "jakarta special capital region",
-        ],
-        "di yogyakarta": [
-            "yogyakarta",
-            "special region of yogyakarta",
-        ],
-    }
-
-    valid_province_names = province_aliases.get(
-        province,
-        [province],
-    )
-
-    # 1. Cari koordinat melalui Open-Meteo
+    # 1. Cari melalui Open-Meteo
     for query in queries:
         try:
             response = requests.get(
@@ -69,25 +119,22 @@ def get_coordinates(regency_name, province_name):
 
             results = response.json().get("results") or []
 
-            candidates = [
-                item for item in results
-                if item.get("country_code", "").casefold() == "id"
-                and item.get("latitude") is not None
-                and item.get("longitude") is not None
-            ]
+            for item in results:
+                if item.get("country_code", "").casefold() != "id":
+                    continue
 
-           
-            
-            for item in candidates:
-                admin1 = item.get("admin1", "").casefold().strip()
+                latitude = item.get("latitude")
+                longitude = item.get("longitude")
 
-                if any(
-                    name in admin1 or admin1 in name
-                    for name in valid_province_names
-                ):
+                if latitude is None or longitude is None:
+                    continue
+
+                admin1 = item.get("admin1", "")
+
+                if province_matches(admin1, province_name):
                     return {
-                        "latitude": item["latitude"],
-                        "longitude": item["longitude"],
+                        "latitude": latitude,
+                        "longitude": longitude,
                         "name": item.get("name", clean_name),
                     }
 
@@ -100,8 +147,8 @@ def get_coordinates(regency_name, province_name):
 
     # 2. Fallback ke OpenStreetMap
     osm_queries = [
-        f"{clean_name}, {province_name}, Indonesia",
         f"{regency_name}, {province_name}, Indonesia",
+        f"{clean_name}, {province_name}, Indonesia",
     ]
 
     for query in osm_queries:
@@ -111,7 +158,7 @@ def get_coordinates(regency_name, province_name):
                 params={
                     "q": query,
                     "format": "jsonv2",
-                    "limit": 5,
+                    "limit": 10,
                     "countrycodes": "id",
                     "addressdetails": 1,
                 },
@@ -126,6 +173,25 @@ def get_coordinates(regency_name, province_name):
                 address = item.get("address", {})
 
                 if address.get("country_code", "").casefold() != "id":
+                    continue
+
+                # Pastikan hasil sesuai provinsi yang diminta
+                address_parts = [
+                    str(value).casefold()
+                    for key, value in address.items()
+                    if key in (
+                        "state",
+                        "state_district",
+                        "county",
+                        "city",
+                        "municipality",
+                    )
+                ]
+
+                if not any(
+                    province_matches(part, province_name)
+                    for part in address_parts
+                ):
                     continue
 
                 return {
@@ -184,4 +250,3 @@ def get_weather(latitude, longitude):
     except requests.RequestException as e:
         st.error(f"Gagal mengambil data cuaca: {e}")
         return None
-
