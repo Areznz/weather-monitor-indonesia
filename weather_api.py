@@ -76,6 +76,18 @@ def get_coordinates(regency_name, province_name):
                 and item.get("longitude") is not None
             ]
 
+            print("DEBUG wilayah:", regency_name, province_name)
+print("DEBUG query:", query)
+print("DEBUG jumlah hasil:", len(candidates))
+
+for item in candidates:
+    print(
+        "DEBUG kandidat:",
+        item.get("name"),
+        "| provinsi:",
+        item.get("admin1"),
+    )
+            
             for item in candidates:
                 admin1 = item.get("admin1", "").casefold().strip()
 
