@@ -14,26 +14,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-st.subheader("Tes koneksi geocoding")
-
-try:
-    response = requests.get(
-        "https://geocoding-api.open-meteo.com/v1/search",
-        params={
-            "name": "Jakarta",
-            "count": 5,
-            "language": "en",
-            "format": "json",
-            "countryCode": "ID",
-        },
-        timeout=15,
-    )
-
-    st.write("HTTP status:", response.status_code)
-    st.json(response.json())
-
-except Exception as e:
-    st.error(f"Koneksi geocoding gagal: {type(e).__name__}: {e}")
 # =========================================================
 # DARK GLASS UI
 # =========================================================
