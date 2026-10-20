@@ -63,20 +63,34 @@ def get_coordinates(regency_name, province_name):
 
             province = province_name.casefold().strip()
 
-            # Pilih hasil yang provinsinya cocok.
-            for item in candidates:
-                admin1 = item.get("admin1", "").casefold().strip()
+province_aliases = {
+    "dki jakarta": [
+        "jakarta",
+        "jakarta special capital region",
+    ],
+    "di yogyakarta": [
+        "yogyakarta",
+        "special region of yogyakarta",
+    ],
+}
 
-                if admin1 and (
-                    province == admin1
-                    or province in admin1
-                    or admin1 in province
-                ):
-                    return {
-                        "latitude": item["latitude"],
-                        "longitude": item["longitude"],
-                        "name": item.get("name", clean_name),
-                    }
+valid_province_names = province_aliases.get(
+    province,
+    [province],
+)
+
+for item in candidates:
+    admin1 = item.get("admin1", "").casefold().strip()
+
+    if any(
+        name in admin1 or admin1 in name
+        for name in valid_province_names
+    ):
+        return {
+            "latitude": item["latitude"],
+            "longitude": item["longitude"],
+            "name": item.get("name", clean_name),
+        }
 
             # Jangan asal memilih hasil dari provinsi lain.
         except (requests.RequestException, ValueError, TypeError) as e:
