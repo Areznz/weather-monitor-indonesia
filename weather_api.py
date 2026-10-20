@@ -176,23 +176,7 @@ def get_coordinates(regency_name, province_name):
                     continue
 
                 # Pastikan hasil sesuai provinsi yang diminta
-                address_parts = [
-                    str(value).casefold()
-                    for key, value in address.items()
-                    if key in (
-                        "state",
-                        "state_district",
-                        "county",
-                        "city",
-                        "municipality",
-                    )
-                ]
-
-                if not any(
-                    province_matches(part, province_name)
-                    for part in address_parts
-                ):
-                    continue
+                
 
                 return {
                     "latitude": float(item["lat"]),
