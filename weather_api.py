@@ -73,8 +73,8 @@ def get_coordinates(regency_name, province_name):
                             "name": item["name"]
                         }
 
-        except (requests.RequestException, ValueError):
-            pass
+        except (requests.RequestException, ValueError) as e:
+            print(f"[Open-Meteo Geocoding] {query}: {e}")
 
     # 2. Fallback: OpenStreetMap Nominatim
     # Mencari wilayah administratif jika pencarian kota gagal.
@@ -116,8 +116,8 @@ def get_coordinates(regency_name, province_name):
                     "name": item.get("display_name", regency_name)
                 }
 
-        except (requests.RequestException, ValueError, KeyError):
-            pass
+        except (requests.RequestException, ValueError, KeyError) as e:
+            print(f"[Nominatim] {query}: {e}")
 
         # Hormati batas penggunaan layanan Nominatim
         time.sleep(1)
