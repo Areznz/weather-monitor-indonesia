@@ -31,14 +31,14 @@ def clean_region_name(name):
 def get_coordinates(regency_name, province_name):
     clean_name = clean_region_name(regency_name)
 
-    # 1. Coba Open-Meteo Geocoding
+    # 1. Cari melalui Open-Meteo
     queries = [
         f"{clean_name}, {province_name}",
+        f"{regency_name}, {province_name}",
         clean_name,
-        regency_name
     ]
 
-    for query in queries:
+    for index, query in enumerate(queries):
         try:
             response = requests.get(
                 OPEN_METEO_GEO,
@@ -47,40 +47,55 @@ def get_coordinates(regency_name, province_name):
                     "count": 10,
                     "language": "id",
                     "format": "json",
-                    "countryCode": "ID"
+                    "countryCode": "ID",
                 },
-                timeout=15
+                timeout=15,
             )
             response.raise_for_status()
 
-            results = response.json().get("results", [])
+            results = response.json().get("results") or []
 
-            for item in results:
-                if item.get("country_code") == "ID":
-                    # Jika nama provinsi tersedia, prioritaskan
-                    # hasil yang sesuai dengan provinsi pilihan.
-                    admin1 = item.get("admin1", "").casefold()
-                    province = province_name.casefold()
+            # Hanya ambil hasil dari Indonesia
+            candidates = [
+                item for item in results
+                if item.get("country_code", "").casefold() == "id"
+                and "latitude" in item
+                and "longitude" in item
+            ]
 
-                    if (
-                        province in admin1
-                        or admin1 in province
-                        or not admin1
-                    ):
-                        return {
-                            "latitude": item["latitude"],
-                            "longitude": item["longitude"],
-                            "name": item["name"]
-                        }
+            if not candidates:
+                continue
 
-        except (requests.RequestException, ValueError) as e:
-            print(f"[Open-Meteo Geocoding] {query}: {e}")
+            province = province_name.casefold().strip()
 
-    # 2. Fallback: OpenStreetMap Nominatim
-    # Mencari wilayah administratif jika pencarian kota gagal.
+            # Utamakan kecocokan nama provinsi
+            for item in candidates:
+                admin1 = item.get("admin1", "").casefold().strip()
+
+                if province in admin1 or admin1 in province:
+                    return {
+                        "latitude": item["latitude"],
+                        "longitude": item["longitude"],
+                        "name": item.get("name", clean_name),
+                    }
+
+            # Pencarian pertama sudah menyertakan nama provinsi
+            # sehingga bisa menjadi fallback jika admin1 berbeda format.
+            if index == 0:
+                item = candidates[0]
+                return {
+                    "latitude": item["latitude"],
+                    "longitude": item["longitude"],
+                    "name": item.get("name", clean_name),
+                }
+
+        except (requests.RequestException, ValueError, TypeError) as e:
+            print(f"[Open-Meteo] {query}: {e}")
+
+    # 2. Fallback melalui OpenStreetMap Nominatim
     osm_queries = [
         f"{regency_name}, {province_name}, Indonesia",
-        f"{clean_name}, {province_name}, Indonesia"
+        f"{clean_name}, {province_name}, Indonesia",
     ]
 
     for query in osm_queries:
@@ -92,12 +107,12 @@ def get_coordinates(regency_name, province_name):
                     "format": "jsonv2",
                     "limit": 5,
                     "countrycodes": "id",
-                    "addressdetails": 1
+                    "addressdetails": 1,
                 },
                 headers={
                     "User-Agent": "WeatherMonitorIndonesia/1.0"
                 },
-                timeout=20
+                timeout=20,
             )
             response.raise_for_status()
 
@@ -105,7 +120,7 @@ def get_coordinates(regency_name, province_name):
 
             for item in results:
                 address = item.get("address", {})
-                country = address.get("country_code", "").lower()
+                country = address.get("country_code", "").casefold()
 
                 if country != "id":
                     continue
@@ -113,17 +128,25 @@ def get_coordinates(regency_name, province_name):
                 return {
                     "latitude": float(item["lat"]),
                     "longitude": float(item["lon"]),
-                    "name": item.get("display_name", regency_name)
+                    "name": item.get("display_name", regency_name),
                 }
 
-        except (requests.RequestException, ValueError, KeyError) as e:
+        except (
+            requests.RequestException,
+            ValueError,
+            KeyError,
+            TypeError,
+        ) as e:
             print(f"[Nominatim] {query}: {e}")
 
-        # Hormati batas penggunaan layanan Nominatim
         time.sleep(1)
 
+    print(
+        f"[Geocoding gagal] "
+        f"Kabupaten/kota: {regency_name}, "
+        f"Provinsi: {province_name}"
+    )
     return None
-
 
 @st.cache_data(ttl=60)
 def get_weather(latitude, longitude):
