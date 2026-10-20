@@ -1,11 +1,9 @@
-
+```python
 import requests
 import streamlit as st
 import time
 
-OPEN_METEO_GEO = (
-    "https://geocoding-api.open-meteo.com/v1/search"
-)
+OPEN_METEO_GEO = "https://geocoding-api.open-meteo.com/v1/search"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
 
@@ -15,7 +13,7 @@ def clean_region_name(name):
         "KABUPATEN ADMINISTRASI ",
         "KABUPATEN ",
         "KOTA ADMINISTRASI ",
-        "KOTA "
+        "KOTA ",
     ]
 
     result = name.strip()
@@ -27,17 +25,34 @@ def clean_region_name(name):
     return result
 
 
-
 @st.cache_data(ttl=86400)
 def get_coordinates(regency_name, province_name):
     clean_name = clean_region_name(regency_name)
 
-    # Cari nama wilayah tanpa qualifier provinsi terlebih dahulu.
     queries = list(dict.fromkeys([
         clean_name,
         regency_name.strip(),
     ]))
 
+    province = province_name.casefold().strip()
+
+    province_aliases = {
+        "dki jakarta": [
+            "jakarta",
+            "jakarta special capital region",
+        ],
+        "di yogyakarta": [
+            "yogyakarta",
+            "special region of yogyakarta",
+        ],
+    }
+
+    valid_province_names = province_aliases.get(
+        province,
+        [province],
+    )
+
+    # 1. Cari koordinat melalui Open-Meteo
     for query in queries:
         try:
             response = requests.get(
@@ -52,6 +67,7 @@ def get_coordinates(regency_name, province_name):
                 timeout=15,
             )
             response.raise_for_status()
+
             results = response.json().get("results") or []
 
             candidates = [
@@ -61,42 +77,27 @@ def get_coordinates(regency_name, province_name):
                 and item.get("longitude") is not None
             ]
 
-            province = province_name.casefold().strip()
+            for item in candidates:
+                admin1 = item.get("admin1", "").casefold().strip()
 
-province_aliases = {
-    "dki jakarta": [
-        "jakarta",
-        "jakarta special capital region",
-    ],
-    "di yogyakarta": [
-        "yogyakarta",
-        "special region of yogyakarta",
-    ],
-}
+                if any(
+                    name in admin1 or admin1 in name
+                    for name in valid_province_names
+                ):
+                    return {
+                        "latitude": item["latitude"],
+                        "longitude": item["longitude"],
+                        "name": item.get("name", clean_name),
+                    }
 
-valid_province_names = province_aliases.get(
-    province,
-    [province],
-)
-
-for item in candidates:
-    admin1 = item.get("admin1", "").casefold().strip()
-
-    if any(
-        name in admin1 or admin1 in name
-        for name in valid_province_names
-    ):
-        return {
-            "latitude": item["latitude"],
-            "longitude": item["longitude"],
-            "name": item.get("name", clean_name),
-        }
-
-            # Jangan asal memilih hasil dari provinsi lain.
-        except (requests.RequestException, ValueError, TypeError) as e:
+        except (
+            requests.RequestException,
+            ValueError,
+            TypeError,
+        ) as e:
             print(f"[Open-Meteo] {query}: {e}")
 
-    # Fallback ke OpenStreetMap
+    # 2. Fallback ke OpenStreetMap
     osm_queries = [
         f"{clean_name}, {province_name}, Indonesia",
         f"{regency_name}, {province_name}, Indonesia",
@@ -122,6 +123,7 @@ for item in candidates:
 
             for item in response.json():
                 address = item.get("address", {})
+
                 if address.get("country_code", "").casefold() != "id":
                     continue
 
@@ -162,11 +164,11 @@ def get_weather(latitude, longitude):
                     "precipitation",
                     "weather_code",
                     "wind_speed_10m",
-                    "wind_direction_10m"
+                    "wind_direction_10m",
                 ],
-                "timezone": "auto"
+                "timezone": "auto",
             },
-            timeout=20
+            timeout=20,
         )
 
         response.raise_for_status()
@@ -181,25 +183,4 @@ def get_weather(latitude, longitude):
     except requests.RequestException as e:
         st.error(f"Gagal mengambil data cuaca: {e}")
         return None
-
-if __name__ == "__main__":
-    import requests
-
-    try:
-        r = requests.get(
-            "https://geocoding-api.open-meteo.com/v1/search",
-            params={
-                "name": "Jakarta",
-                "count": 5,
-                "language": "id",
-                "format": "json",
-                "countryCode": "ID",
-            },
-            timeout=15,
-        )
-
-        print("STATUS:", r.status_code)
-        print("HASIL:", r.text[:1500])
-
-    except Exception as e:
-        print("ERROR:", repr(e))
+```
