@@ -27,75 +27,65 @@ def clean_region_name(name):
     return result
 
 
+
 @st.cache_data(ttl=86400)
 def get_coordinates(regency_name, province_name):
     clean_name = clean_region_name(regency_name)
 
-    # 1. Cari melalui Open-Meteo
-    queries = [
-        f"{clean_name}, {province_name}",
-        f"{regency_name}, {province_name}",
+    # Cari nama wilayah tanpa qualifier provinsi terlebih dahulu.
+    queries = list(dict.fromkeys([
         clean_name,
-    ]
+        regency_name.strip(),
+    ]))
 
-    for index, query in enumerate(queries):
+    for query in queries:
         try:
             response = requests.get(
                 OPEN_METEO_GEO,
                 params={
                     "name": query,
-                    "count": 10,
-                    "language": "id",
+                    "count": 100,
+                    "language": "en",
                     "format": "json",
                     "countryCode": "ID",
                 },
                 timeout=15,
             )
             response.raise_for_status()
-
             results = response.json().get("results") or []
 
-            # Hanya ambil hasil dari Indonesia
             candidates = [
                 item for item in results
                 if item.get("country_code", "").casefold() == "id"
-                and "latitude" in item
-                and "longitude" in item
+                and item.get("latitude") is not None
+                and item.get("longitude") is not None
             ]
-
-            if not candidates:
-                continue
 
             province = province_name.casefold().strip()
 
-            # Utamakan kecocokan nama provinsi
+            # Pilih hasil yang provinsinya cocok.
             for item in candidates:
                 admin1 = item.get("admin1", "").casefold().strip()
 
-                if province in admin1 or admin1 in province:
+                if admin1 and (
+                    province == admin1
+                    or province in admin1
+                    or admin1 in province
+                ):
                     return {
                         "latitude": item["latitude"],
                         "longitude": item["longitude"],
                         "name": item.get("name", clean_name),
                     }
 
-            # Pencarian pertama sudah menyertakan nama provinsi
-            # sehingga bisa menjadi fallback jika admin1 berbeda format.
-            if index == 0:
-                item = candidates[0]
-                return {
-                    "latitude": item["latitude"],
-                    "longitude": item["longitude"],
-                    "name": item.get("name", clean_name),
-                }
-
+            # Jangan asal memilih hasil dari provinsi lain.
         except (requests.RequestException, ValueError, TypeError) as e:
             print(f"[Open-Meteo] {query}: {e}")
 
-    # 2. Fallback melalui OpenStreetMap Nominatim
+    # Fallback ke OpenStreetMap
     osm_queries = [
-        f"{regency_name}, {province_name}, Indonesia",
         f"{clean_name}, {province_name}, Indonesia",
+        f"{regency_name}, {province_name}, Indonesia",
     ]
 
     for query in osm_queries:
@@ -116,13 +106,9 @@ def get_coordinates(regency_name, province_name):
             )
             response.raise_for_status()
 
-            results = response.json()
-
-            for item in results:
+            for item in response.json():
                 address = item.get("address", {})
-                country = address.get("country_code", "").casefold()
-
-                if country != "id":
+                if address.get("country_code", "").casefold() != "id":
                     continue
 
                 return {
@@ -142,11 +128,10 @@ def get_coordinates(regency_name, province_name):
         time.sleep(1)
 
     print(
-        f"[Geocoding gagal] "
-        f"Kabupaten/kota: {regency_name}, "
-        f"Provinsi: {province_name}"
+        f"[Geocoding gagal] {regency_name}, {province_name}"
     )
     return None
+
 
 @st.cache_data(ttl=60)
 def get_weather(latitude, longitude):
