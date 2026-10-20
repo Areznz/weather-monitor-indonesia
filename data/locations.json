@@ -1,0 +1,2134 @@
+{
+  "Aceh": {
+    "Kabupaten Aceh Selatan": {
+      "latitude": 3.2548016392931354,
+      "longitude": 97.17411233973566
+    },
+    "Kabupaten Aceh Tenggara": {
+      "latitude": 3.473359853097982,
+      "longitude": 97.81924348302599
+    },
+    "Kabupaten Aceh Timur": {
+      "latitude": 4.932736888548549,
+      "longitude": 97.7838443591112
+    },
+    "Kabupaten Aceh Tengah": {
+      "latitude": 4.622057187598997,
+      "longitude": 96.84566791108571
+    },
+    "Kabupaten Aceh Barat": {
+      "latitude": 4.15301021563362,
+      "longitude": 96.1314406676852
+    },
+    "Kabupaten Aceh Besar": {
+      "latitude": 5.2973395526628515,
+      "longitude": 95.61087103885502
+    },
+    "Kabupaten Pidie": {
+      "latitude": 5.367600459124008,
+      "longitude": 95.95788011001953
+    },
+    "Kabupaten Aceh Utara": {
+      "latitude": 5.07571569194339,
+      "longitude": 97.30262386768965
+    },
+    "Kabupaten Simeulue": {
+      "latitude": 2.4614125527223116,
+      "longitude": 96.38037739836625
+    },
+    "Kabupaten Aceh Singkil": {
+      "latitude": 2.2710939677616295,
+      "longitude": 97.81532536767888
+    },
+    "Kabupaten Bireuen": {
+      "latitude": 5.207564894628741,
+      "longitude": 96.72640339652622
+    },
+    "Kabupaten Aceh Barat Daya": {
+      "latitude": 3.7391033250335153,
+      "longitude": 96.85150507428492
+    },
+    "Kabupaten Gayo Lues": {
+      "latitude": 3.993465184564387,
+      "longitude": 97.32450169161383
+    },
+    "Kabupaten Aceh Jaya": {
+      "latitude": 4.624131830287506,
+      "longitude": 95.61681174202448
+    },
+    "Kabupaten Nagan Raya": {
+      "latitude": 4.169426810266828,
+      "longitude": 96.32437393884945
+    },
+    "Kabupaten Aceh Tamiang": {
+      "latitude": 4.301275755472272,
+      "longitude": 98.04571548117825
+    },
+    "Kabupaten Bener Meriah": {
+      "latitude": 4.702762114549044,
+      "longitude": 96.86195266768776
+    },
+    "Kabupaten Pidie Jaya": {
+      "latitude": 5.2288994377471605,
+      "longitude": 96.24475688303401
+    },
+    "Kota Banda Aceh": {
+      "latitude": 5.550049859538454,
+      "longitude": 95.31782669652819
+    },
+    "Kota Sabang": {
+      "latitude": 5.892656382959924,
+      "longitude": 95.32111719653021
+    },
+    "Kota Lhokseumawe": {
+      "latitude": 5.179363622042538,
+      "longitude": 97.14894011186956
+    },
+    "Kota Langsa": {
+      "latitude": 4.46948210581997,
+      "longitude": 97.96644605234316
+    },
+    "Kota Subulussalam": {
+      "latitude": 2.6707917619957486,
+      "longitude": 97.99301166767994
+    }
+  },
+  "Sumatera Utara": {
+    "Kabupaten Tapanuli Tengah": {
+      "latitude": 1.684690341229827,
+      "longitude": 98.82771720471466
+    },
+    "Kabupaten Tapanuli Utara": {
+      "latitude": 2.0218496600101576,
+      "longitude": 98.96179136764661
+    },
+    "Kabupaten Tapanuli Selatan": {
+      "latitude": 1.519661925116435,
+      "longitude": 99.30284312257872
+    },
+    "Kabupaten Nias": {
+      "latitude": 1.2417545046363359,
+      "longitude": 97.64991802740695
+    },
+    "Kabupaten Langkat": {
+      "latitude": 3.7426864805785707,
+      "longitude": 98.44753521807361
+    },
+    "Kabupaten Karo": {
+      "latitude": 3.110679693532461,
+      "longitude": 98.5013348785831
+    },
+    "Kabupaten Deli Serdang": {
+      "latitude": 3.550718941711028,
+      "longitude": 98.86644224023665
+    },
+    "Kabupaten Simalungun": {
+      "latitude": 2.9653486091382972,
+      "longitude": 98.86209969919715
+    },
+    "Kabupaten Asahan": {
+      "latitude": 2.9881057835467244,
+      "longitude": 99.61283578690154
+    },
+    "Kabupaten Labuhanbatu": {
+      "latitude": 2.070089999362207,
+      "longitude": 99.85708629199812
+    },
+    "Kabupaten Dairi": {
+      "latitude": 2.7479672571598934,
+      "longitude": 98.31396934594967
+    },
+    "Kabupaten Toba": {
+      "latitude": 2.3318009358602985,
+      "longitude": 99.05102147349844
+    },
+    "Kabupaten Mandailing Natal": {
+      "latitude": 0.7967262645602773,
+      "longitude": 99.57880901075687
+    },
+    "Kabupaten Nias Selatan": {
+      "latitude": 0.5833773193046318,
+      "longitude": 97.7778846860258
+    },
+    "Kabupaten Pakpak Bharat": {
+      "latitude": 2.541054180498141,
+      "longitude": 98.32258850116699
+    },
+    "Kabupaten Humbang Hasundutan": {
+      "latitude": 2.250279290484845,
+      "longitude": 98.79045401025103
+    },
+    "Kabupaten Samosir": {
+      "latitude": 2.5598708852610876,
+      "longitude": 98.7223886458626
+    },
+    "Kabupaten Serdang Bedagai": {
+      "latitude": 3.4912650864166386,
+      "longitude": 99.12592027625313
+    },
+    "Kabupaten Batu Bara": {
+      "latitude": 3.1717751880433394,
+      "longitude": 99.4209807063729
+    },
+    "Kabupaten Padang Lawas Utara": {
+      "latitude": 1.4945493942995707,
+      "longitude": 99.61970881122626
+    },
+    "Kabupaten Padang Lawas": {
+      "latitude": 1.0555897761779505,
+      "longitude": 99.77552008687299
+    },
+    "Kabupaten Labuhanbatu Selatan": {
+      "latitude": 1.8682211662701844,
+      "longitude": 100.04114555938138
+    },
+    "Kabupaten Labuhanbatu Utara": {
+      "latitude": 2.5628487863896083,
+      "longitude": 99.65806864456648
+    },
+    "Kabupaten Nias Utara": {
+      "latitude": 1.389322425641782,
+      "longitude": 97.38136186409508
+    },
+    "Kabupaten Nias Barat": {
+      "latitude": 0.9989625537417939,
+      "longitude": 97.49525171290033
+    },
+    "Kota Medan": {
+      "latitude": 3.5902455275064686,
+      "longitude": 98.67497243281954
+    },
+    "Kota Pematangsiantar": {
+      "latitude": 2.956496281855757,
+      "longitude": 99.06182098647018
+    },
+    "Kota Sibolga": {
+      "latitude": 1.7460206351072023,
+      "longitude": 98.77558765380772
+    },
+    "Kota Tanjungbalai": {
+      "latitude": 2.9477544593720797,
+      "longitude": 99.76671856261935
+    },
+    "Kota Binjai": {
+      "latitude": 3.6029774611853127,
+      "longitude": 98.48318146773616
+    },
+    "Kota Tebing Tinggi": {
+      "latitude": 3.3275651079027178,
+      "longitude": 99.16631751787298
+    },
+    "Kota Padangsidimpuan": {
+      "latitude": 1.3776451726865724,
+      "longitude": 99.27144601728223
+    },
+    "Kota Gunungsitoli": {
+      "latitude": 1.2826405556021396,
+      "longitude": 97.61346302920929
+    }
+  },
+  "Sumatera Barat": {
+    "Kabupaten Pesisir Selatan": {
+      "latitude": -1.3480157543827396,
+      "longitude": 100.57771703088352
+    },
+    "Kabupaten Solok": {
+      "latitude": -0.9515709623485049,
+      "longitude": 100.621363864246
+    },
+    "Kabupaten Sijunjung": {
+      "latitude": -0.6657814625085021,
+      "longitude": 100.94461003602282
+    },
+    "Kabupaten Tanah Datar": {
+      "latitude": -0.47436500293745626,
+      "longitude": 100.62341833230498
+    },
+    "Kabupaten Padang Pariaman": {
+      "latitude": -0.6209981455774217,
+      "longitude": 100.30654186745963
+    },
+    "Kabupaten Agam": {
+      "latitude": -0.3151932364711986,
+      "longitude": 100.02965550313753
+    },
+    "Kabupaten Lima Puluh Kota": {
+      "latitude": -0.1523939738781051,
+      "longitude": 100.66073826825613
+    },
+    "Kabupaten Pasaman": {
+      "latitude": 0.14039088869184965,
+      "longitude": 100.16698745256477
+    },
+    "Kabupaten Kepulauan Mentawai": {
+      "latitude": -2.054155901765037,
+      "longitude": 99.58047028483205
+    },
+    "Kabupaten Dharmasraya": {
+      "latitude": -0.9529856017421708,
+      "longitude": 101.4941127505854
+    },
+    "Kabupaten Solok Selatan": {
+      "latitude": -1.55622109073616,
+      "longitude": 101.23950314232809
+    },
+    "Kabupaten Pasaman Barat": {
+      "latitude": 0.11037800042690936,
+      "longitude": 99.82778738745613
+    },
+    "Kota Padang": {
+      "latitude": -0.8758770365307109,
+      "longitude": 100.38728839371491
+    },
+    "Kota Solok": {
+      "latitude": -0.7994814749336137,
+      "longitude": 100.65278211152693
+    },
+    "Kota Sawahlunto": {
+      "latitude": -0.6750372451200484,
+      "longitude": 100.76750125689844
+    },
+    "Kota Padang Panjang": {
+      "latitude": -0.4621189750496027,
+      "longitude": 100.39039860910817
+    },
+    "Kota Bukittinggi": {
+      "latitude": -0.2854652709845979,
+      "longitude": 100.36780701021121
+    },
+    "Kota Payakumbuh": {
+      "latitude": -0.22251750962688782,
+      "longitude": 100.63197810693005
+    },
+    "Kota Pariaman": {
+      "latitude": -0.6289899582270029,
+      "longitude": 100.1377134437062
+    }
+  },
+  "Riau": {
+    "Kabupaten Kampar": {
+      "latitude": 0.3138917999795952,
+      "longitude": 101.01798894984739
+    },
+    "Kabupaten Indragiri Hulu": {
+      "latitude": -0.39300278228698865,
+      "longitude": 102.43757196516648
+    },
+    "Kabupaten Bengkalis": {
+      "latitude": 1.4731922402874156,
+      "longitude": 102.11333539019962
+    },
+    "Kabupaten Indragiri Hilir": {
+      "latitude": -0.3151906894045306,
+      "longitude": 103.15785004555477
+    },
+    "Kabupaten Pelalawan": {
+      "latitude": 0.38378706324101214,
+      "longitude": 101.8419575583448
+    },
+    "Kabupaten Rokan Hulu": {
+      "latitude": 0.8997093117054642,
+      "longitude": 100.30741018024709
+    },
+    "Kabupaten Rokan Hilir": {
+      "latitude": 2.0994939613474934,
+      "longitude": 100.81765082131788
+    },
+    "Kabupaten Siak": {
+      "latitude": 0.8045392202011306,
+      "longitude": 102.02031850446771
+    },
+    "Kabupaten Kuantan Singingi": {
+      "latitude": -0.5053008502336358,
+      "longitude": 101.53807726174774
+    },
+    "Kabupaten Kepulauan Meranti": {
+      "latitude": 1.0007034465615983,
+      "longitude": 102.72568179719613
+    },
+    "Kota Pekanbaru": {
+      "latitude": 0.5134188210148788,
+      "longitude": 101.44702176089957
+    },
+    "Kota Dumai": {
+      "latitude": 1.605410676514873,
+      "longitude": 101.39165976395793
+    }
+  },
+  "Jambi": {
+    "Kabupaten Kerinci": {
+      "latitude": -2.057362540443507,
+      "longitude": 101.3884655651427
+    },
+    "Kabupaten  Merangin": {
+      "latitude": -2.060060712192705,
+      "longitude": 102.27432945279186
+    },
+    "Kabupaten Sarolangun": {
+      "latitude": -2.3132156092521274,
+      "longitude": 102.75041232450403
+    },
+    "Kabupaten Batanghari": {
+      "latitude": -1.6936093136328045,
+      "longitude": 103.27299563039578
+    },
+    "Kabupaten  Muaro Jambi": {
+      "latitude": -1.4482512111723946,
+      "longitude": 103.51549566092164
+    },
+    "Kabupaten Tanjung Jabung Barat": {
+      "latitude": -0.8267010584857123,
+      "longitude": 103.46121376201233
+    },
+    "Kabupaten Tanjung Jabung Timur": {
+      "latitude": -1.2062288175283662,
+      "longitude": 103.79042841792285
+    },
+    "Kabupaten Bungo": {
+      "latitude": -1.5163157015353335,
+      "longitude": 102.11868862402379
+    },
+    "Kabupaten Tebo": {
+      "latitude": -1.4662159218571826,
+      "longitude": 102.35827578475197
+    },
+    "Kota Jambi": {
+      "latitude": -1.6305013396917745,
+      "longitude": 103.60727024612254
+    },
+    "Kota Sungai Penuh": {
+      "latitude": -2.070909819809651,
+      "longitude": 101.39607811491697
+    }
+  },
+  "Sumatera Selatan": {
+    "Kabupaten Ogan Komering Ulu": {
+      "latitude": -4.165710009351137,
+      "longitude": 104.19777124067642
+    },
+    "Kabupaten Ogan Komering": {
+      "latitude": -3.4116461216612666,
+      "longitude": 104.82302047600152
+    },
+    "Kabupaten Muara Enim": {
+      "latitude": -3.6556303086592794,
+      "longitude": 103.77700425898033
+    },
+    "Kabupaten Lahat": {
+      "latitude": -3.7781858650486404,
+      "longitude": 103.55048129479607
+    },
+    "Kabupaten Musi Rawas": {
+      "latitude": -3.243507659535636,
+      "longitude": 103.01158628091243
+    },
+    "Kabupaten Musi Banyuasin": {
+      "latitude": -2.8888428202148733,
+      "longitude": 103.84022898155693
+    },
+    "Kabupaten Banyuasin": {
+      "latitude": -2.91681146820806,
+      "longitude": 104.40664162434949
+    },
+    "Kabupaten Ogan Komering Ulu Timur": {
+      "latitude": -4.368780840384969,
+      "longitude": 104.35844673228776
+    },
+    "Kabupaten Ogan Komering Ulu Selatan": {
+      "latitude": -4.532324222637718,
+      "longitude": 104.09536192072122
+    },
+    "Kabupaten Ogan Ilir": {
+      "latitude": -3.2605839796212193,
+      "longitude": 104.65253470549459
+    },
+    "Kabupaten Empat Lawang": {
+      "latitude": -3.609843671060275,
+      "longitude": 103.10276373795163
+    },
+    "Kabupaten Penukal Abab Lematang Ilir": {
+      "latitude": -3.3098740053582287,
+      "longitude": 103.88405107482733
+    },
+    "Kabupaten Musi Rawas Utara": {
+      "latitude": -2.734689531152489,
+      "longitude": 102.90112671236449
+    },
+    "Kota Palembang": {
+      "latitude": -2.991046172915815,
+      "longitude": 104.75675098698375
+    },
+    "Kota Pagar Alam": {
+      "latitude": -4.039321642834122,
+      "longitude": 103.19702046655082
+    },
+    "Kota Lubuk Linggau": {
+      "latitude": -3.3258415506679007,
+      "longitude": 102.82538716626468
+    },
+    "Kota Prabumulih": {
+      "latitude": -3.3689384034331873,
+      "longitude": 104.30842635256347
+    }
+  },
+  "Bengkulu": {
+    "Kabupaten Bengkulu Selatan": {
+      "latitude": -4.439935303062977,
+      "longitude": 102.89520237885483
+    },
+    "Kabupaten Rejang Lebong": {
+      "latitude": -3.4779639096664248,
+      "longitude": 102.53188572612797
+    },
+    "Kabupaten Bengkulu Utara": {
+      "latitude": -3.436858034706668,
+      "longitude": 102.2017863093631
+    },
+    "Kabupaten Kaur": {
+      "latitude": -4.7591102206280205,
+      "longitude": 103.34909985473034
+    },
+    "Kabupaten Seluma": {
+      "latitude": -4.077629925945562,
+      "longitude": 102.55625381723668
+    },
+    "Kabupaten Mukomuko": {
+      "latitude": -2.5527631166770415,
+      "longitude": 101.10421399515411
+    },
+    "Kabupaten Lebong": {
+      "latitude": -3.1574485628093467,
+      "longitude": 102.18284672681582
+    },
+    "Kabupaten Kepahiang": {
+      "latitude": -3.6251092126391558,
+      "longitude": 102.55634520967017
+    },
+    "Kabupaten Bengkulu Tengah": {
+      "latitude": -3.7728554135369468,
+      "longitude": 102.3899904291284
+    },
+    "Kota Bengkulu": {
+      "latitude": -3.792845099999999,
+      "longitude": 102.26076409999996
+    }
+  },
+  "Lampung": {
+    "Kabupaten Lampung Selatan": {
+      "latitude": -5.717676069034854,
+      "longitude": 105.58534802478252
+    },
+    "Kabupaten Lampung Tengah": {
+      "latitude": -4.977246742581951,
+      "longitude": 105.21014035161986
+    },
+    "Kabupaten Lampung Utara": {
+      "latitude": -4.8291901217543,
+      "longitude": 104.88744459932492
+    },
+    "Kabupaten Lampung Barat": {
+      "latitude": -5.018974596354066,
+      "longitude": 104.06076281355635
+    },
+    "Kabupaten Tulang Bawang": {
+      "latitude": -4.494996749237475,
+      "longitude": 105.22021203836975
+    },
+    "Kabupaten Tanggamus": {
+      "latitude": -5.480674664821914,
+      "longitude": 104.68229977472107
+    },
+    "Kabupaten Lampung Timur": {
+      "latitude": -5.048183264548101,
+      "longitude": 105.52825470212977
+    },
+    "Kabupaten Way Kanan": {
+      "latitude": -4.506182074363012,
+      "longitude": 104.51131397505866
+    },
+    "Kabupaten Pesawaran": {
+      "latitude": -5.397533024693423,
+      "longitude": 105.07010811310506
+    },
+    "Kabupaten Pringsewu": {
+      "latitude": -5.344241935909573,
+      "longitude": 105.00640245995234
+    },
+    "Kabupaten Mesuji": {
+      "latitude": -3.873162785665348,
+      "longitude": 105.42787851469521
+    },
+    "Kabupaten Tulang Bawang Barat": {
+      "latitude": -4.499407459058168,
+      "longitude": 105.11989991165247
+    },
+    "Kabupaten Pesisir Barat": {
+      "latitude": -5.188425335364648,
+      "longitude": 103.93458368482928
+    },
+    "Kota Bandar Lampung": {
+      "latitude": -5.429579213794452,
+      "longitude": 105.26256765111627
+    },
+    "Kota Metro": {
+      "latitude": -5.113688728188825,
+      "longitude": 105.30690431111174
+    }
+  },
+  "Kepulauan Bangka Belitung": {
+    "Kabupaten Bangka": {
+      "latitude": -1.8873108002346788,
+      "longitude": 106.10482719651391
+    },
+    "Kabupaten Belitung": {
+      "latitude": -2.742308350486171,
+      "longitude": 107.65431549651602
+    },
+    "Kabupaten Bangka Selatan": {
+      "latitude": -3.019747321507955,
+      "longitude": 106.5117467118603
+    },
+    "Kabupaten Bangka Tengah": {
+      "latitude": -2.515349261743928,
+      "longitude": 106.41589404069474
+    },
+    "Kabupaten Bangka Barat": {
+      "latitude": -2.0586102945536235,
+      "longitude": 105.20138132535004
+    },
+    "Kabupaten Belitung Timur": {
+      "latitude": -2.883346486095607,
+      "longitude": 108.23930392535223
+    },
+    "Kota Pangkal Pinang": {
+      "latitude": -2.1409794439689436,
+      "longitude": 106.11591390259511
+    }
+  },
+  "Kepulauan Riau": {
+    "Kabupaten Bintan": {
+      "latitude": 1.0867044293599752,
+      "longitude": 104.50214506989914
+    },
+    "Kabupaten Karimun": {
+      "latitude": 1.032978125457723,
+      "longitude": 103.37578135747897
+    },
+    "Kabupaten Natuna": {
+      "latitude": 3.923444039666034,
+      "longitude": 108.3369318453504
+    },
+    "Kabupaten Lingga": {
+      "latitude": -0.2099928734471007,
+      "longitude": 104.60465899766058
+    },
+    "Kabupaten Kepulauan Anambas": {
+      "latitude": 3.2145458693401,
+      "longitude": 106.24870240264536
+    },
+    "Kota Batam": {
+      "latitude": 1.1287452751793037,
+      "longitude": 104.05533324230443
+    },
+    "Kota Tanjung Pinang": {
+      "latitude": 0.9653429680491279,
+      "longitude": 104.44098650588683
+    }
+  },
+  "Daerah Khusus Ibukota Jakarta": {
+    "Kabupaten Administrasi Kepulauan Seribu": {
+      "latitude": -5.746480997815013,
+      "longitude": 106.61316002536523
+    },
+    "Kota Administrasi Jakarta Pusat": {
+      "latitude": -6.172913263118424,
+      "longitude": 106.81869625420377
+    },
+    "Kota Administrasi Jakarta Utara": {
+      "latitude": -6.1200283357159915,
+      "longitude": 106.89249513885989
+    },
+    "Kota Administrasi Jakarta Barat": {
+      "latitude": -6.184334501192923,
+      "longitude": 106.73662053886034
+    },
+    "Kota Administrasi Jakarta Selatan": {
+      "latitude": -6.247775007302514,
+      "longitude": 106.80763679653259
+    },
+    "Kota Administrasi Jakarta Timur": {
+      "latitude": -6.2136855478344994,
+      "longitude": 106.9440075965323
+    }
+  },
+  "Jawa Barat": {
+    "Kabupaten Bogor": {
+      "latitude": -6.479478948089524,
+      "longitude": 106.82471731002641
+    },
+    "Kabupaten Sukabumi": {
+      "latitude": -6.989164614549726,
+      "longitude": 106.55022261003006
+    },
+    "Kabupaten Cianjur": {
+      "latitude": -6.822746173673224,
+      "longitude": 107.1394835830441
+    },
+    "Kabupaten Bandung": {
+      "latitude": -7.021854779311784,
+      "longitude": 107.52755122537383
+    },
+    "Kabupaten Garut": {
+      "latitude": -7.202671667220667,
+      "longitude": 107.88606805421097
+    },
+    "Kabupaten Tasikmalaya": {
+      "latitude": -7.361038703594784,
+      "longitude": 108.11307619839148
+    },
+    "Kabupaten Ciamis": {
+      "latitude": -7.325899103457777,
+      "longitude": 108.3514012468077
+    },
+    "Kabupaten Kuningan": {
+      "latitude": -6.975864860855258,
+      "longitude": 108.48310462537334
+    },
+    "Kabupaten Cirebon": {
+      "latitude": -6.764528033189753,
+      "longitude": 108.47861955420773
+    },
+    "Kabupaten Majalengka": {
+      "latitude": -6.836270833744539,
+      "longitude": 108.22755549468556
+    },
+    "Kabupaten Sumedang": {
+      "latitude": -6.86120394309925,
+      "longitude": 107.92061689653679
+    },
+    "Kabupaten Indramayu": {
+      "latitude": -6.327080208332331,
+      "longitude": 108.32320909838413
+    },
+    "Kabupaten Subang": {
+      "latitude": -6.571294853262137,
+      "longitude": 107.76235318119123
+    },
+    "Kabupaten Purwakarta": {
+      "latitude": -6.556211845847212,
+      "longitude": 107.44125672537048
+    },
+    "Kabupaten Karawang": {
+      "latitude": -6.301616343281738,
+      "longitude": 107.30488191002529
+    },
+    "Kabupaten Bekasi": {
+      "latitude": -6.247446600000001,
+      "longitude": 107.14845209999999
+    },
+    "Kabupaten Bandung Barat": {
+      "latitude": -6.865221399999999,
+      "longitude": 107.49197670000001
+    },
+    "Kabupaten Pangandaran": {
+      "latitude": -7.615061099999999,
+      "longitude": 108.49882690000004
+    },
+    "Kota Bogor": {
+      "latitude": -6.595057464978462,
+      "longitude": 106.79411231002724
+    },
+    "Kota Sukabumi": {
+      "latitude": -6.917619028189996,
+      "longitude": 106.93185683886544
+    },
+    "Kota Bandung": {
+      "latitude": -6.910655826355507,
+      "longitude": 107.60986952537303
+    },
+    "Kota Cirebon": {
+      "latitude": -6.706735309782623,
+      "longitude": 108.55824665420744
+    },
+    "Kota Bekasi": {
+      "latitude": -6.2360139577925855,
+      "longitude": 106.9942480407117
+    },
+    "Kota Depok": {
+      "latitude": -6.394166132635422,
+      "longitude": 106.8226891965335
+    },
+    "Kota Cimahi": {
+      "latitude": -6.870807159364418,
+      "longitude": 107.55515922352156
+    },
+    "Kota Tasikmalaya": {
+      "latitude": -7.316053133091321,
+      "longitude": 108.19701389654014
+    },
+    "Kota Banjar": {
+      "latitude": -7.362161223560727,
+      "longitude": 108.55958988304805
+    }
+  },
+  "Jawa Tengah": {
+    "Kabupaten Cilacap": {
+      "latitude": -7.725598913851234,
+      "longitude": 109.00953989681535
+    },
+    "Kabupaten Banyumas": {
+      "latitude": -7.4227990604767795,
+      "longitude": 109.23008333914095
+    },
+    "Kabupaten Purbalingga": {
+      "latitude": -7.388814420295788,
+      "longitude": 109.3640761679762
+    },
+    "Kabupaten Banjarnegara": {
+      "latitude": -7.395695390770286,
+      "longitude": 109.69606973623053
+    },
+    "Kabupaten Kebumen": {
+      "latitude": -7.668443736529897,
+      "longitude": 109.65371583117799
+    },
+    "Kabupaten Purworejo": {
+      "latitude": -7.713974600894097,
+      "longitude": 110.00829855421505
+    },
+    "Kabupaten Wonosobo": {
+      "latitude": -7.358331142315653,
+      "longitude": 109.90516253886881
+    },
+    "Kabupaten Magelang": {
+      "latitude": -7.596984026372694,
+      "longitude": 110.22353113036982
+    },
+    "Kabupaten Boyolali": {
+      "latitude": -7.545656104163497,
+      "longitude": 110.61059579654192
+    },
+    "Kabupaten Klaten": {
+      "latitude": -7.712385036340197,
+      "longitude": 110.59213566770745
+    },
+    "Kabupaten Sukoharjo": {
+      "latitude": -7.664598872152095,
+      "longitude": 110.83586765421464
+    },
+    "Kabupaten Wonogiri": {
+      "latitude": -7.815058364755334,
+      "longitude": 110.9256844677081
+    },
+    "Kabupaten Karanganyar": {
+      "latitude": -7.595516965884652,
+      "longitude": 110.93964029654224
+    },
+    "Kabupaten Sragen": {
+      "latitude": -7.426354762546872,
+      "longitude": 111.02317943886926
+    },
+    "Kabupaten Grobogan": {
+      "latitude": -7.082058555310319,
+      "longitude": 110.91737159653837
+    },
+    "Kabupaten Blora": {
+      "latitude": -6.969718505731454,
+      "longitude": 111.41492279653751
+    },
+    "Kabupaten Rembang": {
+      "latitude": -6.703466029933058,
+      "longitude": 111.34262144071498
+    },
+    "Kabupaten Pati": {
+      "latitude": -6.75222674353357,
+      "longitude": 111.03994759653601
+    },
+    "Kabupaten Kudus": {
+      "latitude": -6.805651710957646,
+      "longitude": 110.84219531187978
+    },
+    "Kabupaten Jepara": {
+      "latitude": -6.59009446252794,
+      "longitude": 110.66812971187831
+    },
+    "Kabupaten Demak": {
+      "latitude": -6.891354614610146,
+      "longitude": 110.63838933886524
+    },
+    "Kabupaten Semarang": {
+      "latitude": -7.128957393445669,
+      "longitude": 110.40409099653884
+    },
+    "Kabupaten Temanggung": {
+      "latitude": -7.315316457103409,
+      "longitude": 110.18189242537592
+    },
+    "Kabupaten Kendal": {
+      "latitude": -6.922836880283628,
+      "longitude": 110.20356709653716
+    },
+    "Kabupaten Batang": {
+      "latitude": -6.910710871962525,
+      "longitude": 109.72968238304469
+    },
+    "Kabupaten Pekalongan": {
+      "latitude": -7.0250357325518875,
+      "longitude": 109.59114532537376
+    },
+    "Kabupaten Pemalang": {
+      "latitude": -6.893151410423199,
+      "longitude": 109.38071935420861
+    },
+    "Kabupaten Tegal": {
+      "latitude": -6.995407828046843,
+      "longitude": 109.12789492537367
+    },
+    "Kabupaten Brebes": {
+      "latitude": -6.870110551867783,
+      "longitude": 109.03921083886512
+    },
+    "Kota Magelang": {
+      "latitude": -7.50371096633142,
+      "longitude": 110.22147082537745
+    },
+    "Kota Surakarta": {
+      "latitude": -7.569260552279098,
+      "longitude": 110.82945951003452
+    },
+    "Kota Salatiga": {
+      "latitude": -7.33043714839692,
+      "longitude": 110.5008298965402
+    },
+    "Kota Semarang": {
+      "latitude": -6.98167961659711,
+      "longitude": 110.4122341695528
+    },
+    "Kota Pekalongan": {
+      "latitude": -6.896949717498735,
+      "longitude": 109.66208089653703
+    },
+    "Kota Tegal": {
+      "latitude": -6.8704087484501155,
+      "longitude": 109.13741611002918
+    }
+  },
+  "Daerah Istimewa Yogyakarta": {
+    "Kabupaten Kulon Progo": {
+      "latitude": -7.857808676282555,
+      "longitude": 110.15916128305197
+    },
+    "Kabupaten Bantul": {
+      "latitude": -7.886189837551494,
+      "longitude": 110.3278379965447
+    },
+    "Kabupaten Gunungkidul": {
+      "latitude": -7.964079635059824,
+      "longitude": 110.6015380965454
+    },
+    "Kabupaten Sleman": {
+      "latitude": -7.71654673418279,
+      "longitude": 110.35577266770737
+    },
+    "Kota Yogyakarta": {
+      "latitude": -7.799905025562796,
+      "longitude": 110.39137075421564
+    }
+  },
+  "Jawa Timur": {
+    "Kabupaten Pacitan": {
+      "latitude": -8.194484702033753,
+      "longitude": 111.10316522606453
+    },
+    "Kabupaten Ponorogo": {
+      "latitude": -7.870873802089809,
+      "longitude": 111.46254871373611
+    },
+    "Kabupaten Trenggalek": {
+      "latitude": -8.047910064122286,
+      "longitude": 111.70915082348205
+    },
+    "Kabupaten Tulungagung": {
+      "latitude": -8.064364715839401,
+      "longitude": 111.90068000547873
+    },
+    "Kabupaten Blitar": {
+      "latitude": -8.12393088642822,
+      "longitude": 112.21307421019162
+    },
+    "Kabupaten Kediri": {
+      "latitude": -7.80216489245253,
+      "longitude": 112.04111356733358
+    },
+    "Kabupaten Malang": {
+      "latitude": -8.105459029077382,
+      "longitude": 112.57329134091296
+    },
+    "Kabupaten Lumajang": {
+      "latitude": -8.135206153280906,
+      "longitude": 113.2243946381578
+    },
+    "Kabupaten Jember": {
+      "latitude": -8.169670975121788,
+      "longitude": 113.70215105421875
+    },
+    "Kabupaten Banyuwangi": {
+      "latitude": -8.223037204830721,
+      "longitude": 114.36643523941463
+    },
+    "Kabupaten Bondowoso": {
+      "latitude": -7.914444581620128,
+      "longitude": 113.82185071188832
+    },
+    "Kabupaten Situbondo": {
+      "latitude": -7.707340624354634,
+      "longitude": 114.00177518305065
+    },
+    "Kabupaten Probolinggo": {
+      "latitude": -7.761818744749144,
+      "longitude": 113.41597252537957
+    },
+    "Kabupaten Pasuruan": {
+      "latitude": -7.64901246028997,
+      "longitude": 112.90515909654273
+    },
+    "Kabupaten Sidoarjo": {
+      "latitude": -7.447173306341014,
+      "longitude": 112.71807833886932
+    },
+    "Kabupaten Mojokerto": {
+      "latitude": -7.462844394027845,
+      "longitude": 112.43341998304892
+    },
+    "Kabupaten Jombang": {
+      "latitude": -7.556402096019785,
+      "longitude": 112.23460958304962
+    },
+    "Kabupaten Nganjuk": {
+      "latitude": -7.601982862041979,
+      "longitude": 111.90189545421411
+    },
+    "Kabupaten Madiun": {
+      "latitude": -7.538540959979179,
+      "longitude": 111.6534826499319
+    },
+    "Kabupaten Magetan": {
+      "latitude": -7.656157297486492,
+      "longitude": 111.32926865421445
+    },
+    "Kabupaten Ngawi": {
+      "latitude": -7.401286050830588,
+      "longitude": 111.44544266770494
+    },
+    "Kabupaten Bojonegoro": {
+      "latitude": -7.149935359747551,
+      "longitude": 111.88154262537478
+    },
+    "Kabupaten Tuban": {
+      "latitude": -6.8961044097904685,
+      "longitude": 112.06506272537278
+    },
+    "Kabupaten Lamongan": {
+      "latitude": -7.1210348508171615,
+      "longitude": 112.41543434071801
+    },
+    "Kabupaten Gresik": {
+      "latitude": -7.170587571783878,
+      "longitude": 112.59967629653906
+    },
+    "Kabupaten Bangkalan": {
+      "latitude": -7.046392499923124,
+      "longitude": 112.73706719653809
+    },
+    "Kabupaten Sampang": {
+      "latitude": -7.1875353391978205,
+      "longitude": 113.23734031169953
+    },
+    "Kabupaten Pamekasan": {
+      "latitude": -7.156884154270928,
+      "longitude": 113.47188259653895
+    },
+    "Kabupaten Sumenep": {
+      "latitude": -7.014033429943415,
+      "longitude": 113.86352599653785
+    },
+    "Kota Kediri": {
+      "latitude": -7.8121941506978585,
+      "longitude": 112.0142841830517
+    },
+    "Kota Blitar": {
+      "latitude": -8.099174292311863,
+      "longitude": 112.1645539118899
+    },
+    "Kota Malang": {
+      "latitude": -7.977788119311085,
+      "longitude": 112.6338358100378
+    },
+    "Kota Probolinggo": {
+      "latitude": -7.75367770292879,
+      "longitude": 113.21423953887185
+    },
+    "Kota Pasuruan": {
+      "latitude": -7.647370692892007,
+      "longitude": 112.90855041188624
+    },
+    "Kota Mojokerto": {
+      "latitude": -7.4628151554153925,
+      "longitude": 112.43344588575034
+    },
+    "Kota Madiun": {
+      "latitude": -7.624396873185385,
+      "longitude": 111.52064916955761
+    },
+    "Kota Surabaya": {
+      "latitude": -7.258891323638141,
+      "longitude": 112.74703888119626
+    },
+    "Kota Batu": {
+      "latitude": -7.862516051170755,
+      "longitude": 112.5133531677289
+    }
+  },
+  "Banten": {
+    "Kabupaten Pandeglang": {
+      "latitude": -6.316855430513631,
+      "longitude": 106.11479446982028
+    },
+    "Kabupaten Lebak": {
+      "latitude": -6.3607670885178305,
+      "longitude": 106.24618699653327
+    },
+    "Kabupaten Tangerang": {
+      "latitude": -6.269630455565761,
+      "longitude": 106.48440474071201
+    },
+    "Kabupaten Serang": {
+      "latitude": -6.115302501045602,
+      "longitude": 106.15201508303925
+    },
+    "Kota Tangerang": {
+      "latitude": -6.164361554952064,
+      "longitude": 106.64107113819723
+    },
+    "Kota Cilegon": {
+      "latitude": -6.00980901882699,
+      "longitude": 106.04212868303857
+    },
+    "Kota Serang": {
+      "latitude": -6.1196975739996,
+      "longitude": 106.17346069838267
+    },
+    "Kota Tangerang Selatan": {
+      "latitude": -6.321567965040671,
+      "longitude": 106.70774205743535
+    }
+  },
+  "Bali": {
+    "Kabupaten Jembrana": {
+      "latitude": -8.357300895935373,
+      "longitude": 114.6369005100411
+    },
+    "Kabupaten Tabanan": {
+      "latitude": -8.539497666397425,
+      "longitude": 115.13103226771442
+    },
+    "Kabupaten Badung": {
+      "latitude": -8.601920881989042,
+      "longitude": 115.17914542538679
+    },
+    "Kabupaten Gianyar": {
+      "latitude": -8.540851437717537,
+      "longitude": 115.32410958305795
+    },
+    "Kabupaten Klungkung": {
+      "latitude": -8.534402013006794,
+      "longitude": 115.40297954072949
+    },
+    "Kabupaten Bangli": {
+      "latitude": -8.461762702253463,
+      "longitude": 115.35247721644086
+    },
+    "Kabupaten Karangasem": {
+      "latitude": -8.438846951802109,
+      "longitude": 115.61223348305695
+    },
+    "Kabupaten Buleleng": {
+      "latitude": -8.12516022356895,
+      "longitude": 115.09284902538256
+    },
+    "Kota Denpasar": {
+      "latitude": -8.654458853264748,
+      "longitude": 115.21653329890924
+    }
+  },
+  "Nusa Tenggara Barat": {
+    "Kabupaten Lombok Barat": {
+      "latitude": -8.681396051887829,
+      "longitude": 116.13670528305914
+    },
+    "Kabupaten Lombok Tengah": {
+      "latitude": -8.706131863466181,
+      "longitude": 116.27003418305937
+    },
+    "Kabupaten Lombok Timur": {
+      "latitude": -8.650938604217814,
+      "longitude": 116.52965363887955
+    },
+    "Kabupaten Sumbawa": {
+      "latitude": -8.489511525311054,
+      "longitude": 117.4196890006745
+    },
+    "Kabupaten Dompu": {
+      "latitude": -8.534112083030623,
+      "longitude": 118.46474902538593
+    },
+    "Kabupaten Bima": {
+      "latitude": -8.556532639441706,
+      "longitude": 118.67015779690297
+    },
+    "Kabupaten Sumbawa Barat": {
+      "latitude": -8.753910149465758,
+      "longitude": 116.85426539840077
+    },
+    "Kabupaten Lombok Utara": {
+      "latitude": -8.35633546555901,
+      "longitude": 116.15926985422034
+    },
+    "Kota Mataram": {
+      "latitude": -8.582728859362096,
+      "longitude": 116.10813842538651
+    },
+    "Kota Bima": {
+      "latitude": -8.461655165060522,
+      "longitude": 118.74871988305718
+    }
+  },
+  "Nusa Tenggara Timur": {
+    "Kabupaten Kupang": {
+      "latitude": -10.072767460089674,
+      "longitude": 123.86446322540102
+    },
+    "Kabupaten Timor Tengah Selatan": {
+      "latitude": -9.851780619986599,
+      "longitude": 124.26648135633013
+    },
+    "Kabupaten Timor Tengah Utara": {
+      "latitude": -9.456934944114428,
+      "longitude": 124.47508769420945
+    },
+    "Kabupaten Belu": {
+      "latitude": -9.105891366920305,
+      "longitude": 124.87357678138326
+    },
+    "Kabupaten Alor": {
+      "latitude": -8.209309443192296,
+      "longitude": 124.5734638597916
+    },
+    "Kabupaten Flores Timur": {
+      "latitude": -8.326454792692857,
+      "longitude": 123.00311081827232
+    },
+    "Kabupaten Sikka": {
+      "latitude": -8.616591300597133,
+      "longitude": 122.2080821234478
+    },
+    "Kabupaten Ende": {
+      "latitude": -8.84344514400059,
+      "longitude": 121.66223033425577
+    },
+    "Kabupaten Ngada": {
+      "latitude": -8.785172765189195,
+      "longitude": 120.97473007615979
+    },
+    "Kabupaten Manggarai": {
+      "latitude": -8.611446513623472,
+      "longitude": 120.4642990196421
+    },
+    "Kabupaten Sumba Timur": {
+      "latitude": -9.660787895234368,
+      "longitude": 120.26131862254613
+    },
+    "Kabupaten Sumba Barat": {
+      "latitude": -9.647321540554708,
+      "longitude": 119.39400717233693
+    },
+    "Kabupaten Lembata": {
+      "latitude": -8.359888246008067,
+      "longitude": 123.45924285276752
+    },
+    "Kabupaten Rote Ndao": {
+      "latitude": -10.75780320710065,
+      "longitude": 123.06259078628618
+    },
+    "Kabupaten Manggarai Barat": {
+      "latitude": -8.495964947540392,
+      "longitude": 119.89429877413119
+    },
+    "Kabupaten Nagekeo": {
+      "latitude": -8.575463250173927,
+      "longitude": 121.28112874980738
+    },
+    "Kabupaten Sumba Tengah": {
+      "latitude": -9.62267937221953,
+      "longitude": 119.60043476625835
+    },
+    "Kabupaten Sumba Barat Daya": {
+      "latitude": -9.391735416331608,
+      "longitude": 119.18099193903856
+    },
+    "Kabupaten Manggarai Timur": {
+      "latitude": -8.749471050872256,
+      "longitude": 120.60861905890188
+    },
+    "Kabupaten Sabu Raijua": {
+      "latitude": -10.452783457995888,
+      "longitude": 121.87803338600901
+    },
+    "Kabupaten Malaka": {
+      "latitude": -9.444597244521727,
+      "longitude": 124.91757971876395
+    },
+    "Kota Kupang": {
+      "latitude": -10.15389633793275,
+      "longitude": 123.61939014385608
+    }
+  },
+  "Kalimantan Barat": {
+    "Kabupaten Sambas": {
+      "latitude": 1.3610923732904279,
+      "longitude": 109.3285001118564
+    },
+    "Kabupaten Mempawah": {
+      "latitude": 0.3507375156189089,
+      "longitude": 108.96247645418383
+    },
+    "Kabupaten Sanggau": {
+      "latitude": 0.12348442018479931,
+      "longitude": 110.59604636952717
+    },
+    "Kabupaten Ketapang": {
+      "latitude": -1.8442282167132769,
+      "longitude": 109.97893875233444
+    },
+    "Kabupaten Sintang": {
+      "latitude": 0.0786531223680243,
+      "longitude": 111.49548392534787
+    },
+    "Kabupaten Kapuas Hulu": {
+      "latitude": 0.8792574508162577,
+      "longitude": 112.92539148302002
+    },
+    "Kabupaten Bengkayang": {
+      "latitude": 0.8691040170174341,
+      "longitude": 109.49749129836343
+    },
+    "Kabupaten Landak": {
+      "latitude": 0.37478897210209017,
+      "longitude": 109.9382701253479
+    },
+    "Kabupaten Sekadau": {
+      "latitude": 0.007190078560764424,
+      "longitude": 110.95471874069129
+    },
+    "Kabupaten Melawi": {
+      "latitude": -0.3769284988267002,
+      "longitude": 111.7643663695273
+    },
+    "Kabupaten Kayong Utara": {
+      "latitude": -1.253324768640413,
+      "longitude": 109.95437986952808
+    },
+    "Kabupaten Kubu Raya": {
+      "latitude": -0.12685886609816646,
+      "longitude": 109.40395645418373
+    },
+    "Kota Pontianak": {
+      "latitude": -0.022086396871511572,
+      "longitude": 109.3381039118554
+    },
+    "Kota Singkawang": {
+      "latitude": 0.904786196799786,
+      "longitude": 108.97740501185594
+    }
+  },
+  "Kalimantan Tengah": {
+    "Kabupaten Kotawaringin Barat": {
+      "latitude": -2.6922174879548355,
+      "longitude": 111.63434121272037
+    },
+    "Kabupaten Kotawaringin Timur": {
+      "latitude": -2.537536373508974,
+      "longitude": 112.94101118060833
+    },
+    "Kabupaten Kapuas": {
+      "latitude": -2.9644660187868714,
+      "longitude": 114.4161336148058
+    },
+    "Kabupaten Barito Selatan": {
+      "latitude": -1.718998796838818,
+      "longitude": 114.84513147281662
+    },
+    "Kabupaten Barito Utara": {
+      "latitude": -0.9520746870429637,
+      "longitude": 114.89845405524693
+    },
+    "Kabupaten Katingan": {
+      "latitude": -1.8807186625388674,
+      "longitude": 113.39917637503677
+    },
+    "Kabupaten Seruyan": {
+      "latitude": -3.4138432398482084,
+      "longitude": 112.54170361471685
+    },
+    "Kabupaten Sukamara": {
+      "latitude": -2.7605344039108397,
+      "longitude": 111.17662961478362
+    },
+    "Kabupaten Lamandau": {
+      "latitude": -2.1848222337113796,
+      "longitude": 111.42761967058787
+    },
+    "Kabupaten Gunung Mas": {
+      "latitude": -1.1272585021152817,
+      "longitude": 113.8438717306911
+    },
+    "Kabupaten Pulang Pisau": {
+      "latitude": -2.7164345343156215,
+      "longitude": 114.30473004401904
+    },
+    "Kabupaten Murung Raya": {
+      "latitude": -0.6402071749256474,
+      "longitude": 114.56874629288852
+    },
+    "Kabupaten Barito Timur": {
+      "latitude": -2.115344993770098,
+      "longitude": 115.16920098606302
+    },
+    "Kota Palangkaraya": {
+      "latitude": -2.173996226380074,
+      "longitude": 113.8802702994111
+    }
+  },
+  "Kalimantan Selatan": {
+    "Kabupaten Tanah Laut": {
+      "latitude": -3.799466847049419,
+      "longitude": 114.78255114131447
+    },
+    "Kabupaten Kotabaru": {
+      "latitude": -3.2362388666435793,
+      "longitude": 116.22797534143119
+    },
+    "Kabupaten Banjar": {
+      "latitude": -3.408734828681626,
+      "longitude": 114.84815554140891
+    },
+    "Kabupaten Barito Kuala": {
+      "latitude": -2.9783388223443703,
+      "longitude": 114.76579532814996
+    },
+    "Kabupaten Tapin": {
+      "latitude": -2.932105977155375,
+      "longitude": 115.16329842419783
+    },
+    "Kabupaten Hulu Sungai Selatan": {
+      "latitude": -2.786510324118423,
+      "longitude": 115.26594525712335
+    },
+    "Kabupaten Hulu Sungai Tengah": {
+      "latitude": -2.584768110610726,
+      "longitude": 115.38453172508864
+    },
+    "Kabupaten Hulu Sungai Utara": {
+      "latitude": -2.4188734176622435,
+      "longitude": 115.254335243741
+    },
+    "Kabupaten Tabalong": {
+      "latitude": -2.1643540668202728,
+      "longitude": 115.38235677273519
+    },
+    "Kabupaten Tanah Bumbu": {
+      "latitude": -3.4832399331677077,
+      "longitude": 115.94681434136322
+    },
+    "Kabupaten Balangan": {
+      "latitude": -2.36356752319171,
+      "longitude": 115.47108222829301
+    },
+    "Kota Banjarmasin": {
+      "latitude": -3.327490958483104,
+      "longitude": 114.58899911265445
+    },
+    "Kota Banjarbaru": {
+      "latitude": -3.438617247106197,
+      "longitude": 114.83106062806887
+    }
+  },
+  "Kalimantan Timur": {
+    "Kabupaten Paser": {
+      "latitude": -1.9104348021556423,
+      "longitude": 116.19132949946525
+    },
+    "Kabupaten Kutai Kartanegara": {
+      "latitude": -0.4427799289927499,
+      "longitude": 116.99867075751636
+    },
+    "Kabupaten Berau": {
+      "latitude": 2.1500322293440193,
+      "longitude": 117.50760061575453
+    },
+    "Kabupaten Kutai Barat": {
+      "latitude": -0.2365477692797606,
+      "longitude": 115.69643256908253
+    },
+    "Kabupaten Kutai Timur": {
+      "latitude": 0.5256821109783744,
+      "longitude": 117.60821781465334
+    },
+    "Kabupaten Penajam Paser Utara": {
+      "latitude": -1.308203498951236,
+      "longitude": 116.72690384014312
+    },
+    "Kabupaten Mahakam Ulu": {
+      "latitude": 0.5056814783065791,
+      "longitude": 115.27080682675607
+    },
+    "Kota Balikpapan": {
+      "latitude": -1.276337448127985,
+      "longitude": 116.82776028626806
+    },
+    "Kota Samarinda": {
+      "latitude": -0.491364825551253,
+      "longitude": 117.14598009498553
+    },
+    "Kota Bontang": {
+      "latitude": 0.06954899217650308,
+      "longitude": 117.44419874425222
+    }
+  },
+  "Kalimantan Utara": {
+    "Kabupaten Bulungan": {
+      "latitude": 2.840859024940894,
+      "longitude": 117.3980777424597
+    },
+    "Kabupaten Malinau": {
+      "latitude": 3.5519331947811477,
+      "longitude": 116.62208456556772
+    },
+    "Kabupaten Nunukan": {
+      "latitude": 4.077076241826642,
+      "longitude": 117.71891117176128
+    },
+    "Kabupaten Tana Tidung": {
+      "latitude": 3.6022672070166344,
+      "longitude": 116.90275124391299
+    },
+    "Kota Tarakan": {
+      "latitude": 3.313742611777654,
+      "longitude": 117.60485527164477
+    }
+  },
+  "Sulawesi Utara": {
+    "Kabupaten Bolaang Mongondow": {
+      "latitude": 0.8706059890875782,
+      "longitude": 124.02440439997804
+    },
+    "Kabupaten Minahasa": {
+      "latitude": 1.3007636720213933,
+      "longitude": 124.91086981555465
+    },
+    "Kabupaten Kepulauan Sangihe": {
+      "latitude": 3.6124519530653463,
+      "longitude": 125.49964284257182
+    },
+    "Kabupaten Kepulauan Talaud": {
+      "latitude": 4.005791698949146,
+      "longitude": 126.68188419135473
+    },
+    "Kabupaten Minahasa Selatan": {
+      "latitude": 1.213251206534312,
+      "longitude": 124.59716997112689
+    },
+    "Kabupaten Minahasa Utara": {
+      "latitude": 1.4590614069048187,
+      "longitude": 124.97472972676134
+    },
+    "Kabupaten Minahasa Tenggara": {
+      "latitude": 1.0418132213011337,
+      "longitude": 124.79762142886007
+    },
+    "Kabupaten Bolaang Mongondow Utara": {
+      "latitude": 0.9064567526907839,
+      "longitude": 123.25905058744213
+    },
+    "Kabupaten Kep. Siau Tagulandang Biaro": {
+      "latitude": 2.744597043553609,
+      "longitude": 125.36228788467754
+    },
+    "Kabupaten Bolaang Mongondow Timur": {
+      "latitude": 0.7685233845178085,
+      "longitude": 124.61317307103388
+    },
+    "Kabupaten Bolaang Mongondow Selatan": {
+      "latitude": 0.38353955588220484,
+      "longitude": 124.04788389200526
+    },
+    "Kota Manado": {
+      "latitude": 1.484553653349368,
+      "longitude": 124.84912511558082
+    },
+    "Kota Bitung": {
+      "latitude": 1.4453964356838027,
+      "longitude": 125.1819828268371
+    },
+    "Kota Tomohon": {
+      "latitude": 1.3145248488354484,
+      "longitude": 124.82744674228223
+    },
+    "Kota Kotamobagu": {
+      "latitude": 0.743496821258547,
+      "longitude": 124.31266847335326
+    }
+  },
+  "Sulawesi Tengah": {
+    "Kabupaten Banggai": {
+      "latitude": -0.9943229896836165,
+      "longitude": 122.78853827900993
+    },
+    "Kabupaten Poso": {
+      "latitude": -1.3952022331805114,
+      "longitude": 120.75482448623922
+    },
+    "Kabupaten Donggala": {
+      "latitude": -0.6784643651141344,
+      "longitude": 119.75257412858682
+    },
+    "Kabupaten Toli-Toli": {
+      "latitude": 1.0184933341744755,
+      "longitude": 120.79802306837281
+    },
+    "Kabupaten Buol": {
+      "latitude": 1.169077637159471,
+      "longitude": 121.40975635779172
+    },
+    "Kabupaten Morowali": {
+      "latitude": -2.480863226531761,
+      "longitude": 121.93428529937842
+    },
+    "Kabupaten Banggai Kepulauan": {
+      "latitude": -1.3119041730240604,
+      "longitude": 123.29844358843701
+    },
+    "Kabupaten Parigi Moutong": {
+      "latitude": -0.8054270040019127,
+      "longitude": 120.16032341521101
+    },
+    "Kabupaten Tojo Una Una": {
+      "latitude": -0.9146507390533831,
+      "longitude": 121.588520770778
+    },
+    "Kabupaten Sigi": {
+      "latitude": -1.0473982691058936,
+      "longitude": 119.95034087728645
+    },
+    "Kabupaten Banggai Laut": {
+      "latitude": -1.6062920063926547,
+      "longitude": 123.4963867573023
+    },
+    "Kabupaten Morowali Utara": {
+      "latitude": -1.9772829228540625,
+      "longitude": 121.33550832771283
+    },
+    "Kota Palu": {
+      "latitude": -0.8999595654952609,
+      "longitude": 119.89102154408883
+    }
+  },
+  "Sulawesi Selatan": {
+    "Kabupaten Kepulauan Selayar": {
+      "latitude": -6.120175497106447,
+      "longitude": 120.46634581441285
+    },
+    "Kabupaten Bulukumba": {
+      "latitude": -5.558243996799272,
+      "longitude": 120.19308054104557
+    },
+    "Kabupaten Bantaeng": {
+      "latitude": -5.5531536726224795,
+      "longitude": 119.96718599882868
+    },
+    "Kabupaten Jeneponto": {
+      "latitude": -5.67694518150875,
+      "longitude": 119.74938992549147
+    },
+    "Kabupaten Takalar": {
+      "latitude": -5.4254592918321345,
+      "longitude": 119.44063086993823
+    },
+    "Kabupaten Gowa": {
+      "latitude": -5.199807421044581,
+      "longitude": 119.45319036991962
+    },
+    "Kabupaten Sinjai": {
+      "latitude": -5.119898627419877,
+      "longitude": 120.2354438144652
+    },
+    "Kabupaten Bone": {
+      "latitude": -4.539251732825663,
+      "longitude": 120.30925454114436
+    },
+    "Kabupaten Maros": {
+      "latitude": -5.01614872131246,
+      "longitude": 119.57445936973654
+    },
+    "Kabupaten Pangkajene dan Kepulauan": {
+      "latitude": -4.845732154757298,
+      "longitude": 119.5598290821929
+    },
+    "Kabupaten Barru": {
+      "latitude": -4.4140407769508325,
+      "longitude": 119.61729394119529
+    },
+    "Kabupaten Soppeng": {
+      "latitude": -4.3644497502828505,
+      "longitude": 119.89777167015757
+    },
+    "Kabupaten Wajo": {
+      "latitude": -4.1120716633903855,
+      "longitude": 120.02715621245426
+    },
+    "Kabupaten Sidenreng Rappang": {
+      "latitude": -3.933052597666273,
+      "longitude": 119.76930544132097
+    },
+    "Kabupaten Pinrang": {
+      "latitude": -3.809259094007871,
+      "longitude": 119.65000307873112
+    },
+    "Kabupaten Enrekang": {
+      "latitude": -3.588329898134274,
+      "longitude": 119.77030102200364
+    },
+    "Kabupaten Luwu": {
+      "latitude": -3.394691969745157,
+      "longitude": 120.36551044795807
+    },
+    "Kabupaten Tana Toraja": {
+      "latitude": -3.0865430500830704,
+      "longitude": 119.85708269925097
+    },
+    "Kabupaten Luwu Utara": {
+      "latitude": -2.5498538223374445,
+      "longitude": 120.34615805711422
+    },
+    "Kabupaten Luwu Timur": {
+      "latitude": -2.6162481191655704,
+      "longitude": 121.12410632820034
+    },
+    "Kabupaten Toraja Utara": {
+      "latitude": -2.9736212067823917,
+      "longitude": 119.89482069925177
+    },
+    "Kota Makassar": {
+      "latitude": -5.133215561201631,
+      "longitude": 119.40783685662606
+    },
+    "Kota Parepare": {
+      "latitude": -4.027782140067662,
+      "longitude": 119.63332752802752
+    },
+    "Kota Palopo": {
+      "latitude": -3.008386458063242,
+      "longitude": 120.20156382818331
+    }
+  },
+  "Sulawesi Tenggara": {
+    "Kabupaten Kolaka": {
+      "latitude": -4.060808748107698,
+      "longitude": 121.61611935687937
+    },
+    "Kabupaten Konawe": {
+      "latitude": -3.854233561558946,
+      "longitude": 122.04272734128605
+    },
+    "Kabupaten Muna": {
+      "latitude": -4.797870620269443,
+      "longitude": 122.71895870272489
+    },
+    "Kabupaten Buton": {
+      "latitude": -5.495773575456685,
+      "longitude": 122.84013943527818
+    },
+    "Kabupaten Konawe Selatan": {
+      "latitude": -4.332035736807719,
+      "longitude": 122.28131524347981
+    },
+    "Kabupaten Bombana": {
+      "latitude": -4.747234642989351,
+      "longitude": 122.0110926542551
+    },
+    "Kabupaten Wakatobi": {
+      "latitude": -5.328300233247569,
+      "longitude": 23.5389007621827
+    },
+    "Kabupaten Kolaka Utara": {
+      "latitude": -3.4901354632505868,
+      "longitude": 120.88752770777094
+    },
+    "Kabupaten Konawe Utara": {
+      "latitude": -3.51235292694681,
+      "longitude": 122.11073191638067
+    },
+    "Kabupaten Buton Utara": {
+      "latitude": -4.8010073959736,
+      "longitude": 122.98309527349197
+    },
+    "Kabupaten Kolaka Timur": {
+      "latitude": -4.000510057990807,
+      "longitude": 121.8619498140791
+    },
+    "Kabupaten Konawe Kepulauan": {
+      "latitude": -4.052608169270012,
+      "longitude": 122.9885847942083
+    },
+    "Kabupaten Muna Barat": {
+      "latitude": -4.7917142624455,
+      "longitude": 122.49418357893698
+    },
+    "Kabupaten Buton Tengah": {
+      "latitude": -5.316413937156861,
+      "longitude": 122.53197889106548
+    },
+    "Kabupaten Buton Selatan": {
+      "latitude": -5.608164675860151,
+      "longitude": 122.6006216432974
+    },
+    "Kota Kendari": {
+      "latitude": -3.9729017385837686,
+      "longitude": 122.51174077056197
+    },
+    "Kota Bau Bau": {
+      "latitude": -5.485071885684611,
+      "longitude": 122.58479937279147
+    }
+  },
+  "Gorontalo": {
+    "Kabupaten Gorontalo": {
+      "latitude": 0.6290030224702096,
+      "longitude": 122.98093758487616
+    },
+    "Kabupaten Boalemo": {
+      "latitude": 0.5292719285160986,
+      "longitude": 122.34754187571235
+    },
+    "Kabupaten Bone Bolango": {
+      "latitude": 0.5574113394247833,
+      "longitude": 123.14391729846989
+    },
+    "Kabupaten Pohuwato": {
+      "latitude": 0.7055277999999999,
+      "longitude": 121.71954589999996
+    },
+    "Kabupaten Gorontalo Utara": {
+      "latitude": 0.7909498464253044,
+      "longitude": 122.86871529758803
+    },
+    "Kota Gorontalo": {
+      "latitude": 0.5319060577592112,
+      "longitude": 123.0595026528477
+    }
+  },
+  "Sulawesi Barat": {
+    "Kabupaten Pasangkayu": {
+      "latitude": -1.1737447997757244,
+      "longitude": 119.37723724714068
+    },
+    "Kabupaten Mamuju": {
+      "latitude": -2.6897491591296983,
+      "longitude": 118.88453367460207
+    },
+    "Kabupaten Mamasa": {
+      "latitude": -2.9556254753926536,
+      "longitude": 119.36286435705937
+    },
+    "Kabupaten Polewali Mandar": {
+      "latitude": -3.4077171800221633,
+      "longitude": 119.31115423620673
+    },
+    "Kabupaten Majene": {
+      "latitude": -3.548096071882418,
+      "longitude": 118.95929449246914
+    },
+    "Kabupaten Mamuju Tengah": {
+      "latitude": -2.08191948325633,
+      "longitude": 119.30101480907719
+    }
+  },
+  "Maluku": {
+    "Kabupaten Maluku Tengah": {
+      "latitude": -3.3042648189510224,
+      "longitude": 128.95408633796967
+    },
+    "Kabupaten Maluku Tenggara": {
+      "latitude": -5.682916545472394,
+      "longitude": 132.71727708818904
+    },
+    "Kabupaten Kepulauan Tanimbar": {
+      "latitude": -7.970115508208761,
+      "longitude": 131.3122650572608
+    },
+    "Kabupaten Buru": {
+      "latitude": -3.2591745680268827,
+      "longitude": 127.10278183791851
+    },
+    "Kabupaten Seram Bagian Timur": {
+      "latitude": -3.10374969502556,
+      "longitude": 130.4886076064629
+    },
+    "Kabupaten Seram Bagian Barat": {
+      "latitude": -3.066663330229327,
+      "longitude": 128.23003905355495
+    },
+    "Kabupaten Kepulauan Aru": {
+      "latitude": -5.775177775557766,
+      "longitude": 134.21458787827214
+    },
+    "Kabupaten Maluku Barat Daya": {
+      "latitude": -8.148038324123522,
+      "longitude": 127.8015502463786
+    },
+    "Kabupaten Buru Selatan": {
+      "latitude": -3.8377899371827398,
+      "longitude": 126.73425882890845
+    },
+    "Kota Ambon": {
+      "latitude": -3.6943237268737126,
+      "longitude": 128.1813033560866
+    },
+    "Kota Tual": {
+      "latitude": -5.6346805376740114,
+      "longitude": 132.75172074301332
+    }
+  },
+  "Maluku Utara": {
+    "Kabupaten Halmahera Barat": {
+      "latitude": 1.0804684023803615,
+      "longitude": 127.48015504022084
+    },
+    "Kabupaten Halmahera Tengah": {
+      "latitude": 0.3304236239764005,
+      "longitude": 127.87025115227507
+    },
+    "Kabupaten Halmahera Utara": {
+      "latitude": 1.728187436226181,
+      "longitude": 127.99219712155028
+    },
+    "Kabupaten Halmahera Selatan": {
+      "latitude": -0.6454745703649585,
+      "longitude": 127.50498392309089
+    },
+    "Kabupaten Kepulauan Sula": {
+      "latitude": -2.0069779241586523,
+      "longitude": 125.96414541579409
+    },
+    "Kabupaten Halmahera Timur": {
+      "latitude": 0.6774434668568071,
+      "longitude": 128.2840838248518
+    },
+    "Kabupaten Pulau Morotai": {
+      "latitude": 2.0132967093802083,
+      "longitude": 128.2837176160731
+    },
+    "Kabupaten Pulau Taliabu": {
+      "latitude": -1.9474435273583983,
+      "longitude": 124.3872161387243
+    },
+    "Kota Ternate": {
+      "latitude": 0.7857513986405484,
+      "longitude": 127.38784601086685
+    },
+    "Kota Tidore Kepulauan": {
+      "latitude": 0.671565379994557,
+      "longitude": 127.44672305015295
+    }
+  },
+  "Papua": {
+    "Kabupaten Jayapura": {
+      "latitude": -2.5498717752817006,
+      "longitude": 140.47710271224273
+    },
+    "Kabupaten Kepulauan Yapen": {
+      "latitude": -1.874066803353508,
+      "longitude": 136.23707760338652
+    },
+    "Kabupaten Biak Numfor": {
+      "latitude": -1.170708606082667,
+      "longitude": 136.0901928711222
+    },
+    "Kabupaten Sarmi": {
+      "latitude": -1.8685726776038396,
+      "longitude": 138.74422616800342
+    },
+    "Kabupaten Keerom": {
+      "latitude": -2.9087252628071565,
+      "longitude": 140.77334129532647
+    },
+    "Kabupaten Waropen": {
+      "latitude": -2.2408409305863604,
+      "longitude": 136.3794501810602
+    },
+    "Kabupaten Supiori": {
+      "latitude": -0.730681951344063,
+      "longitude": 135.7326415849256
+    },
+    "Kabupaten Mamberamo Raya": {
+      "latitude": -2.3708064074858095,
+      "longitude": 138.04986837362105
+    },
+    "Kota Jayapura": {
+      "latitude": -2.5626261642155557,
+      "longitude": 140.69263309579875
+    }
+  },
+  "Papua Barat": {
+    "Kabupaten Manokwari": {
+      "latitude": -0.8908143771517435,
+      "longitude": 134.04012022193126
+    },
+    "Kabupaten Fak Fak": {
+      "latitude": -2.928858303144004,
+      "longitude": 132.29363471143284
+    },
+    "Kabupaten Teluk Bintuni": {
+      "latitude": -2.0349716122196853,
+      "longitude": 133.73180639786548
+    },
+    "Kabupaten Teluk Wondama": {
+      "latitude": -2.8276928485593285,
+      "longitude": 134.53572347142966
+    },
+    "Kabupaten Kaimana": {
+      "latitude": -3.6396913935577087,
+      "longitude": 133.74006737885003
+    },
+    "Kabupaten Manokwari Selatan": {
+      "latitude": -1.5063952702108039,
+      "longitude": 134.16864333913085
+    },
+    "Kabupaten Pegunungan Arfak": {
+      "latitude": -1.3250472221470158,
+      "longitude": 133.9165696939254
+    }
+  },
+  "Papua Selatan": {
+    "Kabupaten Merauke": {
+      "latitude": -8.508696154665504,
+      "longitude": 140.40967635178788
+    },
+    "Kabupaten Boven Digoel": {
+      "latitude": -6.100403916696958,
+      "longitude": 140.32061122283034
+    },
+    "Kabupaten Mappi": {
+      "latitude": -6.5281463061129115,
+      "longitude": 139.3192523694171
+    },
+    "Kabupaten Asmat": {
+      "latitude": -5.5409474839359305,
+      "longitude": 138.13682960832256
+    }
+  },
+  "Papua Tengah": {
+    "Kabupaten Nabire": {
+      "latitude": -3.363365864105701,
+      "longitude": 135.50389107766932
+    },
+    "Kabupaten Puncak Jaya": {
+      "latitude": -3.716207542016092,
+      "longitude": 137.98781735692376
+    },
+    "Kabupaten Paniai": {
+      "latitude": -3.941435318407964,
+      "longitude": 136.4216307854296
+    },
+    "Kabupaten Mimika": {
+      "latitude": -4.4558567246897995,
+      "longitude": 136.85372895723708
+    },
+    "Kabupaten Puncak": {
+      "latitude": -3.971608513617806,
+      "longitude": 137.64179825141554
+    },
+    "Kabupaten Dogiyai": {
+      "latitude": -4.004608084689695,
+      "longitude": 136.0377620012195
+    },
+    "Kabupaten Intan Jaya": {
+      "latitude": -3.7405289181387547,
+      "longitude": 137.04395179418287
+    },
+    "Kabupaten Deiyai": {
+      "latitude": -4.032249309755539,
+      "longitude": 136.29899153745475
+    }
+  },
+  "Papua Pegunungan": {
+    "Kabupaten Jayawijaya": {
+      "latitude": -4.099306801793126,
+      "longitude": 138.94314903715775
+    },
+    "Kabupaten Pegunungan Bintang": {
+      "latitude": -4.890902753435135,
+      "longitude": 140.6399248830013
+    },
+    "Kabupaten Yahukimo": {
+      "latitude": -4.886949804165835,
+      "longitude": 139.52051776219918
+    },
+    "Kabupaten Tolikara": {
+      "latitude": -3.682250900207365,
+      "longitude": 138.4734846330228
+    },
+    "Kabupaten Mamberamo Tengah": {
+      "latitude": -3.671617193020148,
+      "longitude": 139.06076334013963
+    },
+    "Kabupaten Yalimo": {
+      "latitude": -3.7788529007356377,
+      "longitude": 139.38315671497205
+    },
+    "Kabupaten Lanny Jaya": {
+      "latitude": -3.923598745963506,
+      "longitude": 138.4495844424401
+    },
+    "Kabupaten Nduga": {
+      "latitude": -4.406940530605307,
+      "longitude": 138.23935476923037
+    }
+  },
+  "Papua Barat Daya": {
+    "Kabupaten Sorong": {
+      "latitude": -0.9881558893864777,
+      "longitude": 131.36621325742883
+    },
+    "Kabupaten Sorong Selatan": {
+      "latitude": -1.4752482751322984,
+      "longitude": 132.08562214178235
+    },
+    "Kabupaten Raja Ampat": {
+      "latitude": -0.41850625897138194,
+      "longitude": 130.82879113180778
+    },
+    "Kabupaten Tambrauw": {
+      "latitude": -0.4973012250548381,
+      "longitude": 132.08809753102656
+    },
+    "Kabupaten Maybrat": {
+      "latitude": -1.257254042993835,
+      "longitude": 132.49862338124385
+    },
+    "Kota Sorong": {
+      "latitude": -0.881124482673792,
+      "longitude": 131.28763959924163
+    }
+  }
+}
