@@ -3,27 +3,6 @@ import streamlit as st
 from wilayah_api import get_provinces, get_regencies
 from weather_api import get_coordinates, get_weather
 from datetime import datetime
-import requests
-
-
-try:
-    r = requests.get(
-        "https://geocoding-api.open-meteo.com/v1/search",
-        params={
-            "name": "Jakarta",
-            "count": 5,
-            "language": "id",
-            "format": "json",
-            "countryCode": "ID",
-        },
-        timeout=15,
-    )
-
-    st.write("Tes API status:", r.status_code)
-    st.json(r.json())
-
-except Exception as e:
-    st.error(f"Tes API gagal: {e}")
 
 # =========================================================
 # CONFIGURATION
