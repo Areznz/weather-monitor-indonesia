@@ -1,4 +1,4 @@
-
+import requests
 import streamlit as st
 from wilayah_api import get_provinces, get_regencies
 from weather_api import get_coordinates, get_weather
