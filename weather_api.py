@@ -182,4 +182,4 @@ def get_weather(latitude, longitude):
     except requests.RequestException as e:
         st.error(f"Gagal mengambil data cuaca: {e}")
         return None
-```
+
